@@ -1,0 +1,1 @@
+g++ -m64 -O3 -fopenmp -msse4 -shared -w -I"/usr/local/MATLAB/R2014b/extern/include" -I"/usr/local/MATLAB/R2014b/simulink/include" -DMATLAB_MEX_FILE -o ../../trws_convex.mexa64 *.cpp  -L"/usr/local/MATLAB/R2014b/bin/glnxa64" -lmex -lmx -leng -lmat -fPIC
