@@ -37,5 +37,19 @@ run testDAVIS.m script
 #modify the path to DAVIS dataset, forward and backward optical flow directory
 ```
 
+###### 5) Convert Flow to X-Y Displacement Images
 
+```
+cd ./EpipolarScoreMain/
+run flow2Displacement.m script
+#modify the paths to DAVIS dataset, forward and backward optical flow directory
+```
+
+###### 6) Generate Motion Images
+
+```
+cd ./EpipolarScoreMain/
+run generateMotionImages.m script
+#modify the paths to DAVIS dataset and Optical Flow directory
+```
 
