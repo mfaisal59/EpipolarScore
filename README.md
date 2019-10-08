@@ -53,3 +53,18 @@ run generateMotionImages.m script
 #modify the paths to DAVIS dataset and Optical Flow directory
 ```
 
+#### BIBTEX:
+
+```@article{DBLP:journals/corr/abs-1909-13258,
+  author    = {Muhammad Faisal and
+               Ijaz Akhter and
+               Mohsen Ali and
+               Richard I. Hartley},
+  title     = {Exploiting Geometric Constraints on Dense Trajectories for Motion
+               Saliency},
+  journal   = {CoRR},
+  volume    = {abs/1909.13258},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1909.13258}
+}
+```
