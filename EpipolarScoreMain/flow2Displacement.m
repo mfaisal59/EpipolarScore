@@ -4,7 +4,7 @@ imRepo.root = './/DAVIS_Dataset/DAVIS-trainval-480p/';
 imRepo.floPathBwd = [imRepo.root, 'fullFlow/davisbackward/'];
 imRepo.floPathFwd = [imRepo.root, 'fullFlow/davisforward/'];
 imRepo.imgPath = [imRepo.root, 'JPEGImages/'];
-imRepo.fgHeatMap = [imRepo.root, 'OpticalFlow/'];
+imRepo.fgHeatMap = [imRepo.root, 'OpticalFlowMinMax/'];
 
 imRepo.scale = [480, 854];     % resize the image to make it tractable
 % This is the same scale we used when estimating optical flow
